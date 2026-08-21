@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreevatsa G Uppalli | Portfolio</title>
+    <meta
+      name="description"
+      content="A refined portfolio for Shreevatsa G Uppalli — Information Science student, problem solver, and full-stack builder."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+
+    <main class="page">
+      <section class="hero card">
+        <div class="hero-copy">
+          <h1>Shreevatsa G Uppalli</h1>
+          <p class="intro">
+            I design and build thoughtful software with a strong focus on AI,
+            full-stack systems, and clean user experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#quick-links" class="btn primary">Contact Me</a>
+            <a href="Shreevatsa_G_Uppalli_1BM23IS234_.pdf" class="btn secondary" download>Download Resume</a>
+            <a href="#projects" class="btn secondary">View Projects</a>
+          </div>
+
+          <div class="meta-row">
+            <span>BE in Information Science, 2027</span>
+            <span>CGPA 8.95/10</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-grid">
+        <article class="stat card">
+          <h3>500+</h3>
+          <p>DSA problems solved on LeetCode</p>
+        </article>
+        <article class="stat card">
+          <h3>4</h3>
+          <p>Strong resume projects across AI and full-stack</p>
+        </article>
+        <article class="stat card">
+          <h3>92.8%</h3>
+          <p>Class 10 board score</p>
+        </article>
+        <article class="stat card">
+          <h3>92.3%</h3>
+          <p>Class 12 board score</p>
+        </article>
+      </section>
+
+      <section class="two-column">
+        <article class="card section">
+          <h2><span class="section-icon">🎓</span>Education</h2>
+          <div class="timeline">
+            <!-- <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h3>Visvesvaraya Technological University</h3>
+                <p>BE in Information Science • 2027 • Belgaum</p>
+              </div>
+            </div> -->
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h3>B M S College of Engineering, Bengaluru</h3>
+                <p>Current C.G.P.A: 8.95 / 10</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h3>P R N Amratha Bharathi P U College</h3>
+                <p>Graduated March 2023 • Hebri, India • 12th: 92.3%</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div>
+                <h3>Hongirana School of Excellence</h3>
+                <p>Graduated March 2021 • Sagara, India • 10th: 92.8%</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card section">
+          <h2><span class="section-icon">⚙️</span>Skills</h2>
+          <div class="skills-group">
+            <div>
+              <h3>Functional</h3>
+              <div class="chips">
+                <span>Problem Solving</span>
+                <span>Critical Thinking</span>
+                <span>Good Listener</span>
+              </div>
+            </div>
+            <div>
+              <h3>Programming</h3>
+              <div class="chips">
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>Python</span>
+              </div>
+            </div>
+            <div>
+              <h3>Databases</h3>
+              <div class="chips">
+                <span>NoSQL</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+            <div>
+              <h3>Concepts</h3>
+              <div class="chips">
+                <span>Operating Systems</span>
+                <span>Computer Networks</span>
+                <span>Machine Learning</span>
+                <span>OOP</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" class="card section projects-section">
+        <div class="projects-sticky">
+          <h2><span class="section-icon">✨</span>Projects</h2>
+          <div class="project-stage">
+          <article class="project project-panel">
+            <div class="project-top">
+              <span class="project-tag">AI / Computer Vision</span>
+              <h3>Deepfake Detection</h3>
+            </div>
+            <p>
+              Built an end-to-end deepfake detection system using EfficientNet-B2
+              and YOLOv10L-Face for frame-level binary classification, reaching an
+              AUC of 0.9503 on FaceForensics++.
+            </p>
+            <div class="chips compact">
+              <span>Python</span>
+              <span>PyTorch</span>
+              <span>OpenCV</span>
+              <span>FFmpeg</span>
+              <span>scikit-learn</span>
+            </div>
+            <a class="repo-link" href="https://github.com/Vatsa285/Deepfake-Detection" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </article>
+
+          <article class="project project-panel">
+            <div class="project-top">
+              <span class="project-tag">Full Stack / AI</span>
+              <h3>Live Emotion Detection Using AI</h3>
+            </div>
+            <p>
+              Developed a full-stack speech emotion recognition app with a
+              FastAPI backend and React frontend for browser-based audio
+              recording and confidence-scored predictions.
+            </p>
+            <div class="chips compact">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>Wav2Vec2</span>
+            </div>
+            <a class="repo-link" href="https://github.com/Vatsa285/Emotion-Detection" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </article>
+
+          <article class="project project-panel">
+            <div class="project-top">
+              <span class="project-tag">Automation</span>
+              <h3>Heading and Title Extraction from PDF</h3>
+            </div>
+            <p>
+              Built a Dockerized tool to extract titles and hierarchical headings
+              (H1-H3) from PDFs using font-based heuristics and layout analysis.
+            </p>
+            <div class="chips compact">
+              <span>Python</span>
+              <span>PyMuPDF</span>
+              <span>Docker</span>
+            </div>
+            <a class="repo-link" href="https://github.com/SuchitKS/adobe-hackathon-challenge-1a" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </article>
+
+          <article class="project project-panel">
+            <div class="project-top">
+              <span class="project-tag">Marketplace</span>
+              <h3>Easy Trade</h3>
+            </div>
+            <p>
+              A full-stack marketplace platform with JWT authentication, listing
+              management, search, categories, seller chat, profiles, and a
+              modern dark glassmorphism UI.
+            </p>
+            <div class="chips compact">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>JWT</span>
+              <span>React</span>
+              <span>PostgreSQL</span>
+            </div>
+            <a class="repo-link" href="https://github.com/Shreeramhegde01/EasyTrade" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="card section stack-section">
+        <h2><span class="section-icon">🏸</span>Outside the Code</h2>
+        <div class="chips">
+          <span>Badminton</span>
+          <span>Rubik's Cube</span>
+        </div>
+      </section>
+
+      <section class="card section stack-section">
+        <h2><span class="section-icon">💭</span>What I Enjoy</h2>
+        <p class="narrow">
+          Solving hard problems, turning ideas into polished products, and
+          learning systems that blend intelligence with usability.
+        </p>
+      </section> -->
+
+      <section id="quick-links" class="card section stack-section quick-links">
+        <h2><span class="section-icon">🔗</span>Quick Links</h2>
+        <div class="contact-grid">
+          <a href="https://github.com/Vatsa285" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/shreevatsa-g-uppalli/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span>Mail: shreevatsauppalli@gmail.com</span>
+          <span>Phone: +91 9945660672</span>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>
